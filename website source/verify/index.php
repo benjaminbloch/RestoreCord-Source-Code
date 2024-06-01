@@ -17,7 +17,7 @@ $owner = urldecode(sanitize($pieces[1]));
 $server = urldecode(sanitize($pieces[2]));
 
 if (is_null($owner) || is_null($server)) {
-	die("Invalid link. Link should look like https://restorecord.com/verify/{owner}/{server}");
+	die("Invalid link. Link should look like example.com");
 }
 
 premium_check($owner);
